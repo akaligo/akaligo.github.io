@@ -1,0 +1,152 @@
+/* Images
+-------------------------------------------------- */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+img.centered {
+  display: block;
+  margin: 0 auto 26px;
+}
+
+img.alignnone {
+  margin-bottom: 26px;
+}
+
+img.alignleft {
+  float: left;
+  margin-right: 24px;
+  margin-bottom: 26px;
+}
+
+img.alignright {
+  float: right;
+  margin-left: 24px;
+  margin-bottom: 26px;
+}
+
+img.pullleft {
+  float: left;
+  margin: 0 24px 26px 0;
+}
+
+img.pullright {
+  float: right;
+  margin: 0 0 26px 24px;
+}
+
+@media (min-width: 1000px) {
+  img.pullleft {
+    float: left;
+    margin: 0 24px 26px -64px;
+  }
+  img.pullright {
+    float: right;
+    margin: 0 -64px 26px 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  img.pullleft {
+    float: left;
+    margin: 0 24px 26px -136px;
+  }
+  img.pullright {
+    float: right;
+    margin: 0 -136px 26px 24px;
+  }
+}
+
+@media (min-width: 1600px) {
+  img.pullleft {
+    float: left;
+    margin: 0 24px 26px -200px;
+  }
+  img.pullright {
+    float: right;
+    margin: 0 -200px 26px 24px;
+  }
+}
+
+figure {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+@media (min-width: 750px) {
+  figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+figure:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+figure img {
+  display: block;
+  margin: 0 auto 24px;
+}
+
+figure.half,
+figure.third {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+figure.half:after,
+figure.third:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+figure.half a,
+figure.half img,
+figure.third a,
+figure.third img {
+  padding-right: 0;
+  padding-left: 0;
+}
+@media (min-width: 750px) {
+  figure.half a,
+  figure.half img,
+  figure.third a,
+  figure.third img {
+    display: inline;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  figure.half a:last-child,
+  figure.half img:last-child,
+  figure.third a:last-child,
+  figure.third img:last-child {
+    margin-right: 0;
+  }
+  figure.half a:nth-child(2n),
+  figure.half img:nth-child(2n) {
+    margin-right: 0;
+  }
+  figure.third a:nth-child(3n),
+  figure.third>img:nth-child(3n) {
+    margin-right: 0;
+  }
+  figure.half a:nth-child(2n+1),
+  figure.half img:nth-child(2n+1) {
+    clear: left;
+  }
+  figure.third a:nth-child(3n+1),
+  figure.third>img:nth-child(3n+1) {
+    clear: left;
+  }
+}
+
+figcaption {
+  text-align: center;
+}

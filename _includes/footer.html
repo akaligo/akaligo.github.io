@@ -1,0 +1,16 @@
+<footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
+
+  <h4 class="section-title">Wanna Get in Touch?</h4>
+  <a class="button" href="#">Click This Button</a>
+
+  <hr>
+
+  <p class="copyright">{{ site.title }} &copy; {{ site.time | date: '%Y' }}.</p>
+
+  <nav class="nav-footer" itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <ul class="menu jekyll-nav-menu">{% for link in site.data.footer-nav %}
+      <li class="menu-item{% if link.url == page.url %} active{% endif %}"><a href="{{ site.url }}{{ link.url }}" itemprop="url"><span itemprop="name">{{ link.title }}</span></a></li>{% endfor %}
+    </ul>
+  </nav>
+
+</footer>

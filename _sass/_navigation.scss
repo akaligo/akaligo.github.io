@@ -1,0 +1,138 @@
+/* Navigation
+-------------------------------------------------- */
+.nav-primary {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2 0 auto;
+      -ms-flex: 2 0 auto;
+          flex: 2 0 auto;
+  text-align: center;
+}
+@media (min-width: 750px) {
+  .nav-primary {
+    float: right;
+  }
+}
+
+.jekyll-nav-menu {
+  margin-bottom: 0;
+}
+
+.jekyll-nav-menu .menu-item {
+  display: block;
+  text-align: left;
+  margin-bottom: 0;
+}
+@media (min-width: 550px) {
+  .jekyll-nav-menu .menu-item {
+    display: inline-block;
+  }
+}
+
+.jekyll-nav-menu li li {
+  margin-left: 0;
+}
+
+.jekyll-nav-menu a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+@media (min-width: 750px) {
+  .jekyll-nav-menu a {
+    padding: 29px 15px;
+  }
+}
+
+.site-header.dark .jekyll-nav-menu a {
+  padding: 20px 15px;
+}
+
+.front-page .jekyll-nav-menu li.active > a,
+.jekyll-nav-menu > li > a {
+  border-bottom: 2px solid transparent;
+}
+
+.jekyll-nav-menu li.active > a,
+.jekyll-nav-menu > li > a:hover {
+  border-color: #fff;
+}
+
+.jekyll-nav-menu > .menu-item > a {
+  text-transform: uppercase;
+}
+
+.jekyll-nav-menu .menu-item:hover {
+  position: static;
+}
+
+.jekyll-nav-menu > .first > a {
+  padding-left: 0;
+}
+
+.jekyll-nav-menu > .last > a {
+  padding-right: 0;
+}
+
+
+/* Footer Navigation
+-------------------------------------------------- */
+.nav-footer {
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 750px) {
+  .nav-footer {
+    width: inherit;
+    float: right;
+  }
+}
+
+.nav-footer .jekyll-nav-menu .menu-item {
+  display: inline-block;
+}
+
+.nav-footer .jekyll-nav-menu a {
+  border-bottom: none;
+  padding: 0 15px;
+}
+
+.nav-footer .jekyll-nav-menu a:hover {
+  text-decoration: underline;
+}
+
+
+/* Responsive Menu
+-------------------------------------------------- */
+.responsive-menu-icon {
+  cursor: pointer;
+  -webkit-margin-top-collapse: discard;
+  text-align: center;
+  display: block;
+}
+@media (min-width: 550px) {
+  .responsive-menu-icon {
+    display: none;
+  }
+}
+
+.responsive-menu-icon::before {
+  color: #fff;
+  content: "\f0c9";
+  display: inline-block;
+  font: normal 20px/1 'FontAwesome';
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.responsive-menu {
+  display: none;
+}
+@media (min-width: 550px) {
+  .responsive-menu {
+    display: block;
+  }
+}

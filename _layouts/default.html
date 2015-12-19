@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  {% include head.html %}
+  <body{% if page.url == '/' %} class="home"{% elsif page.title == 'Blog' %} class="blog noimage"{% elsif page.type == 'archive' %} class="archive noimage"{% elsif page.layout != 'post' and page.featured-image == nil %} class="noimage"{% endif %} itemscope itemtype="http://schema.org/WebPage">
+    <div class="site-container">
+      {% include header.html %}
+      <main class="content">
+        {{ content }}
+      </main>
+      {% include footer.html %}
+    </div>
+    {% if page.url != "/" %}<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src='{{ "/js/main.js" | prepend: site.baseurl | prepend: site.url }}'></script>{% endif %}
+  </body>
+</html>
