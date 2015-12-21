@@ -129,21 +129,11 @@
   }
 }
 
-.home .site-description {
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.22);
-  text-align: center;
-}
-
 .site-title a,
 .site-title a:hover {
   color: $header-text-color;
   text-decoration: none;
   border: none;
-}
-
-.site-description {
-  color: $header-text-color;
-  font-size: 32px;
 }
 
 .header-image .site-title > a {
@@ -156,6 +146,14 @@
 .header-image .site-title {
   display: block;
   text-indent: -9999px;
+}
+
+.site-description {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.22);
+  text-align: center;
+  font-weight: 400;
+  color: $header-text-color;
+  font-size: 32px;
 }
 
 .archive-header {
