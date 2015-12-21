@@ -1,6 +1,6 @@
 # Site settings
 title: Thailand ETCetera
-description:
+description: A Unique Travel Experience, Built Just For You.
 baseurl: ""
 url: "http://local.dev:3000"
 default-image: default.jpg
