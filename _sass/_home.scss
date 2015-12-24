@@ -69,13 +69,6 @@
   width: 100%;
 }
 
-.front-page-1,
-.front-page-2,
-.front-page-3 {
-  z-index: 999;
-  position: relative;
-}
-
 .front-page-1 .wrap,
 .front-page-2 .wrap,
 .front-page-3 .wrap,
@@ -87,7 +80,6 @@
 .image-section {
   color: #fff;
   background-attachment: fixed;
-  background-color: #fff;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,6 +1,8 @@
 /* Navigation
 -------------------------------------------------- */
-.nav-primary {
+.navigation {
+  display: none;
+  float: left;
   -webkit-box-flex: 2;
   -webkit-flex: 2 0 auto;
       -ms-flex: 2 0 auto;
@@ -8,8 +10,8 @@
   text-align: center;
 }
 @media (min-width: 750px) {
-  .nav-primary {
-    float: right;
+  .navigation {
+    display: block;
   }
 }
 
@@ -22,7 +24,7 @@
   text-align: left;
   margin-bottom: 0;
 }
-@media (min-width: 550px) {
+@media (min-width: 400px) {
   .jekyll-nav-menu .menu-item {
     display: inline-block;
   }
@@ -78,6 +80,40 @@
 }
 
 
+/* Responsive Menu
+-------------------------------------------------- */
+.responsive-menu-icon {
+  float: right;
+  width: 46px;
+  margin: 23px 0;
+  padding: 10px 13px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 999;
+}
+@media (min-width: 750px) {
+  .responsive-menu-icon {
+    display: none;
+  }
+}
+
+.site-header.dark .responsive-menu-icon {
+  margin: 14px 0;
+}
+
+.responsive-menu-icon:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-bottom: 3px;
+  border-top: 7px double;
+  border-bottom: 2px solid;
+  border-top-width: 9px;
+  border-bottom-width: 3px;
+  box-sizing: border-box;
+}
+
+
 /* Footer Navigation
 -------------------------------------------------- */
 .nav-footer {
@@ -102,37 +138,4 @@
 
 .nav-footer .jekyll-nav-menu a:hover {
   text-decoration: underline;
-}
-
-
-/* Responsive Menu
--------------------------------------------------- */
-.responsive-menu-icon {
-  cursor: pointer;
-  -webkit-margin-top-collapse: discard;
-  text-align: center;
-  display: block;
-}
-@media (min-width: 550px) {
-  .responsive-menu-icon {
-    display: none;
-  }
-}
-
-.responsive-menu-icon::before {
-  color: #fff;
-  content: "\f0c9";
-  display: inline-block;
-  font: normal 20px/1 'FontAwesome';
-  margin: 0 auto;
-  padding: 10px;
-}
-
-.responsive-menu {
-  display: none;
-}
-@media (min-width: 550px) {
-  .responsive-menu {
-    display: block;
-  }
 }
