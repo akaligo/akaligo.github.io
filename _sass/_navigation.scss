@@ -74,7 +74,7 @@
 .jekyll-nav-menu > li > a:hover {
   border-color: #fff;
   background-color: #fff;
-  color: #222;
+  color: inherit;
 }
 @media (min-width: 400px) {
   .jekyll-nav-menu li.active > a,
@@ -150,10 +150,12 @@
 
 .nav-footer .jekyll-nav-menu .menu-item {
   display: block;
+  text-align: center;
 }
-@media (min-width: 400px) {
+@media (min-width: 550px) {
   .nav-footer .jekyll-nav-menu .menu-item {
     display: inline-block;
+    text-align: left;
   }
 }
 
@@ -164,7 +166,7 @@
   background-color: inherit;
   border-bottom: none;
 }
-@media (min-width: 400px) {
+@media (min-width: 550px) {
   .nav-footer .jekyll-nav-menu a,
   .nav-footer .jekyll-nav-menu li.active a {
     padding: 0 15px;
