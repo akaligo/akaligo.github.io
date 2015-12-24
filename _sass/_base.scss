@@ -54,6 +54,15 @@ html {
 }
 
 body {
+  display: -webkit-box; /* old prefixed for webkit */
+  display: -webkit-flex; /* new prefixed for webkit */
+  display: -ms-flexbox; /* prefixed for ie */
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100%;
   font-size: 20px;
   line-height: 1.4;

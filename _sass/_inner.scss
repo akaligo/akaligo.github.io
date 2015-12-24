@@ -1,3 +1,46 @@
+/* Structure and Layout
+-------------------------------------------------- */
+.content {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3 0 auto;
+      -ms-flex: 3 0 auto;
+          flex: 3 0 auto;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.wrap {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@media (min-width: 750px) {
+  .wrap {
+    max-width: 760px;
+  }
+}
+@media (min-width: 1000px) {
+  .wrap {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrap {
+    max-width: 1160px;
+  }
+}
+@media (min-width: 1600px) {
+  .wrap {
+    max-width: 1460px;
+  }
+}
+
+/* wrap inside entry-content; mostly for iframe embeds */
+.entry-content .wrap {
+  max-width: 760px;
+}
+
+
 /* Entry Content
 -------------------------------------------------- */
 .entry {
