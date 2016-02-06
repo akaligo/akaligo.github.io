@@ -3,14 +3,14 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:image" content="{% if page.featured-image %}{{ page.featured-image | prepend: '/images/' | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.default-image | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+  <meta property="og:image" content="{% if page.featured-image %}{{ site.url }}{{ site.baseurl }}/images/{{ page.featured-image }}{% else %}{{ site.url }}{{ site.baseurl }}/images/{{ site.default-image }}{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">{% if site.google-plus %}
   <link rel="author" href="{{ site.google-plus }}">{% endif %}
   <link rel='stylesheet' id='google-fonts-css' href='https://fonts.googleapis.com/css?family=Poppins:300,700|Gentium+Basic:400,400italic,700'>
-  <link rel="stylesheet" id='main-css' href="{{ site.baseurl }}{{ site.url }}{{ '/css/main.css' }}">
+  <link rel="stylesheet" id='main-css' href="{{ site.url }}{{ site.baseurl }}{{ '/css/main.css' }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="Shortcut Icon" href="{{ site.url }}{{ site.baseurl}}/images/favicon.ico" type="image/x-icon" />
