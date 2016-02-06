@@ -4,7 +4,7 @@ description: A Unique Travel Experience, Built Just For You.
 baseurl: "thailandetcetera"
 url: "http://akaligo.github.io"
 default-image: default.jpg
-google-plus: https://plus.google.com/103163741383795666289/
+google-plus: https://plus.google.com/103411031843757874330/
 
 # Gems
 gems: ['jekyll-paginate']
@@ -19,7 +19,7 @@ paginate_path: "/blog/page/:num"
 # SASS settings
 sass:
   sass_dir: _sass
-#  style: compressed
+  style: compressed
 
 # Include these files/directories in your production _site
 include: ['_pages']

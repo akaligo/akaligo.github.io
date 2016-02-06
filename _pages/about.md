@@ -5,7 +5,7 @@ description:
 featured-image:
 permalink: /about/
 ---
-I grew up poor. Like most kids I didn't realize I was poor, it was only after I looked back as an adult that I knew. My family life was happy even though all five of us lived in a room that could be an American closet. I still remember eating eggs every day when I was a child. I assumed everyone ate that many eggs until many years later.
+I grew up poor. Like most poor kids I didn't realize I was poor, it was only after I looked back as an adult that I knew. My family life was happy even though all five of us lived in a room that could be an American closet. I still remember eating eggs every day when I was a child. I assumed everyone ate that many eggs until many years later.
 
 Most people who have a story like this don't leave high paying jobs ... but that's exactly what I did. I was fortunate to attend university and I majored in business. After university I got a job with a Japanese company and was making more money than anyone in my family ever had.
 

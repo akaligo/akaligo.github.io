@@ -9,7 +9,7 @@
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">{% if site.google-plus %}
   <link rel="author" href="{{ site.google-plus }}">{% endif %}
-  <link rel='stylesheet' id='google-fonts-css' href='https://fonts.googleapis.com/css?family=Poppins:300,700|Gentium+Basic:400,400italic,700|Josefin+Sans:700|Domine|Special+Elite|Open+Sans+Condensed:300,300italic,700|Old+Standard+TT:400,400italic,700'>
+  <link rel='stylesheet' id='google-fonts-css' href='https://fonts.googleapis.com/css?family=Poppins:300,700|Gentium+Basic:400,400italic,700'>
   <link rel="stylesheet" id='main-css' href="{{ site.baseurl }}{{ site.url }}{{ '/css/main.css' }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">

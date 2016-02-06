@@ -4,7 +4,7 @@ description: A Unique Travel Experience, Built Just For You.
 baseurl: ""
 url: "http://local.dev:3000"
 default-image: default.jpg
-google-plus: https://plus.google.com/103163741383795666289/
+google-plus: https://plus.google.com/103411031843757874330
 
 # Gems
 gems: ['jekyll-paginate']
