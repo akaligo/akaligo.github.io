@@ -1,8 +1,8 @@
 # Site settings
 title: Thailand ETCetera
 description: A Unique Travel Experience, Built Just For You.
-baseurl: thailandetcetera
-url: http://akaligo.github.io/
+baseurl: ""
+url: http://thailandetcetera.com/
 default-image: default.jpg
 google-plus: https://plus.google.com/103411031843757874330/
 
