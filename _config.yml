@@ -15,6 +15,20 @@ permalink: /:title/
 encoding: utf-8
 paginate: 8
 paginate_path: "/blog/page/:num"
+prose:
+  siteurl: 'http://thailandetcetera.com'
+  metadata:
+    _pages:
+      - name: "layout"
+        field:
+          label: "layout"
+          element: "text"
+          value: "page"
+      - name: "title"
+        field:
+          label: "title"
+          element: "text"
+          placeholder: "Enter title"
 
 # SASS settings
 sass:
