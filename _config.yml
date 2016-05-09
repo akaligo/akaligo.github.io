@@ -28,7 +28,11 @@ prose:
         field:
           label: "title"
           element: "text"
-          value: "Enter title"
+      - name: "permalink"
+        field:
+          label: "permalink"
+          element: "text"
+          value: /:title/
 
 # SASS settings
 sass:
