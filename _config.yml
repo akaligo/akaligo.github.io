@@ -28,11 +28,11 @@ prose:
         field:
           label: "title"
           element: "text"
-      - name: "permalink"
-        field:
-          label: "permalink"
-          element: "text"
-          value: /:title/
+        - name: "permalink"
+          field:
+            label: "permalink"
+            element: "text"
+            value: ""
 
 # SASS settings
 sass:
