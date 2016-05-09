@@ -28,7 +28,7 @@ prose:
         field:
           label: "title"
           element: "text"
-          placeholder: "Enter title"
+          value: "Enter title"
 
 # SASS settings
 sass:
