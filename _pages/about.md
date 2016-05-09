@@ -1,11 +1,12 @@
 ---
 layout: page
 title: About Zine
-description:
-featured-image:
+description: null
+"featured-image": null
 permalink: /about/
+published: true
 ---
-I grew up poor. Like most poor kids I didn't realize I was poor, it was only after I looked back as an adult that I knew. My family life was happy even though all five of us lived in a room that could be an American closet. I still remember eating eggs every day when I was a child. I assumed everyone ate that many eggs until many years later.
+I grew up poor. Like most poor kids I didn't realize I was poor, it was only after I looked back as an adult that I knew. My family life was happy even though all five of us lived in a room that could be an American closet. I still remember eating eggs every day when I was a child (I'm serious, I ate eggs at almost every meal: fried eggs, scamble eggs, boiled eggs, steamed eggs). I assumed everyone ate that many eggs until many years later.
 
 Most people who have a story like this don't leave high paying jobs ... but that's exactly what I did. I was fortunate to attend university and I majored in business. After university I got a job with a Japanese company and was making more money than anyone in my family ever had.
 
@@ -34,4 +35,3 @@ When I travel I like hotels that are reasonably priced, comfortable, and staffed
 And that's what you get on a Thailand ETCetera tour.
 
 We'll work together to make your trip an unforgettable experience. I'll make sure you meet local people and see local life. I'll take you to my favorite places and let you taste my favorite food. I'll plan your trip from beginning to end so you're never waiting (or ripped off by) a taxi driver. There will be plenty of time for you to wander and explore by yourself. Or, if you prefer, you can have a guide with you 24/7. Your itinerary will be custom made to suite your tastes.
-
