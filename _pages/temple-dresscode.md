@@ -2,6 +2,9 @@
 layout: page
 published: true
 title: Temple Dresscode
-permalink: /temple-dresscode/
+permalink: "/temple-dresscode/"
 ---
-![songkran running]({{site.url}}/images/8-Brad-West.png)![8-Brad-West.png]({{site.url}}/images/8-Brad-West.png)
+Hello. Welcom to my test page.
+
+![songkran running]({{site.url}}/images/8-Brad-West.png)
+Yuki!!! I'm coming.
