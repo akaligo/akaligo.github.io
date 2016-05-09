@@ -1,6 +1,6 @@
 ---
 layout: page
-published: true
+published: false
 title: Temple Dresscode
 permalink: "/temple-dresscode/"
 ---
