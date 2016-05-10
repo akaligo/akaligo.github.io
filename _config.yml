@@ -15,24 +15,17 @@ permalink: /:title/
 encoding: utf-8
 paginate: 8
 paginate_path: "/blog/page/:num"
-prose:
-  siteurl: 'http://thailandetcetera.com'
-  metadata:
-    _pages:
-      - name: "layout"
-        field:
-          label: "layout"
-          element: "text"
-          value: "page"
-      - name: "title"
-        field:
-          label: "title"
-          element: "text"
-      - name: "permalink"
-        field:
-          label: "permalink"
-          element: "text"
-          value: ""
+defaults:
+- scope:
+    path: ""
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ""
+    type: pages
+  values:
+    layout: page
 
 # SASS settings
 sass:
