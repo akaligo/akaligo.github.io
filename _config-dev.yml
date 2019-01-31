@@ -1,39 +1,6 @@
 # Site settings
-title: Thailand ETCetera
-description: A Unique Travel Experience, Built Just For You.
-baseurl: ""
-url: "http://local.dev:3000"
-default-image: default.jpg
-google-plus: https://plus.google.com/103411031843757874330
-
-# Gems
-gems: ['jekyll-paginate']
-
-# Build settings
-markdown: kramdown
-permalink: /:title/
-encoding: utf-8
-paginate: 8
-paginate_path: "/blog/page/:num"
-defaults:
-- scope:
-    path: ""
-    type: posts
-  values:
-    layout: post
-- scope:
-    path: ""
-    type: pages
-  values:
-    layout: page
+url: http://localhost:3000
 
 # SASS settings
 sass:
-  sass_dir: _sass
-#  style: compressed
-
-# Include these files/directories in your production _site
-include: ['_pages']
-
-# Exclude these files from your production _site
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "gulpfile.js", "package.json"]
+  style: expanded

@@ -1,0 +1,17 @@
+{
+  "name": "thailandetcetera.com",
+  "version": "0.0.0",
+  "description": "Thailand ETCetera",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akaligo/thailandetcetera.com.git"
+  },
+  "author": "Brad West",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "uglify-js": "^2.8.29"
+  },
+  "scripts": {
+    "js": "uglifyjs assets/js/_main.js -c -m -o assets/js/main.min.js"
+  }
+}

@@ -1,13 +1,9 @@
 # Site settings
 title: Thailand ETCetera
 description: A Unique Travel Experience, Built Just For You.
-baseurl: ""
 url: https://thailandetcetera.com
 default-image: default.jpg
 google-plus: https://plus.google.com/103411031843757874330/
-
-# Gems
-gems: ['jekyll-paginate']
 
 # Build settings
 markdown: kramdown
