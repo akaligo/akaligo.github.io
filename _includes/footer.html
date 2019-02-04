@@ -1,12 +1,12 @@
 <footer class="site-footer" itemscope itemtype="http://schema.org/WPFooter">
 
-  <h4 class="section-title">Ready to Get Started?</h4>
+  {% unless page.url == '/contact/' %}
+    <h4 class="section-title">Start Planning Your Trip Now</h4>
+    <a class="button" href="{{ site.url }}/contact/">Contact Us</a>
 
-  <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
-  <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
-  <a class="button" href="" onclick="Calendly.showPopupWidget('https://calendly.com/thailand');return false;">Schedule a Call</a>
+    <hr>
 
-  <hr>
+  {% endunless %}
 
   <p class="copyright">{{ site.title }} &copy; {{ site.time | date: '%Y' }}.</p>
 
