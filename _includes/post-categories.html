@@ -5,6 +5,6 @@
 {% endif %}
 <p class="entry-meta">
 {% for category in categories %}
-  <span class="entry-categories">Filed Under: <a href="{{ site.url }}{{ site.baseurl }}/{{ categories }}/" rel="category">{{ categories }}</a></span>{% unless forloop.last %},{% endunless %}
+  <span class="entry-categories">Filed Under: <a href="{{ site.url }}/{{ categories }}/" rel="category">{{ categories }}</a></span>{% unless forloop.last %},{% endunless %}
 {% endfor %}
 </p>

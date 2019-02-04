@@ -8,6 +8,6 @@
     </main>
     {% include footer.html %}
     {% if page.url != "/" %}<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src='{{ "/js/main.js" | prepend: site.baseurl | prepend: site.url }}'></script>{% endif %}
+    <script src='{{ "/js/main.js" | prepend: site.url }}'></script>{% endif %}
   </body>
 </html>

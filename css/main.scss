@@ -1,38 +1,20 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
-
-/* Variables
--------------------------------------------------- */
-$primary-font-family: 'Gentium Basic', Georgia, serif;
-$secondary-font-family: Poppins, Helvetica, Arial, sans-serif;
-
-$primary-color: #166678;
-$secondary-color: #7DB9B3;
-
-$header-background-color: #2E3837;
-$header-text-color: #fff;
-$footer-background-color: #2E3837;
-$footer-text-color: #E1F6F4;
-
-$front-page-1-background: #7DB9B3;
-$front-page-2-background: url('/images/zine-train.jpg');
-$front-page-3-background: #7DB9B3;
-$front-page-4-background: url('/images/flock.jpg');
+@charset 'utf-8';
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-  "normalize",
-  "base",
-  "grid",
-  "header",
-  "navigation",
-  "inner",
-  "images",
-  "home",
-  "archive",
-  "code",
-  "footer"
-;
-
+@import 'variables';
+@import 'normalize';
+@import 'base';
+@import 'utilities';
+@import 'forms';
+@import 'grid';
+@import 'header';
+@import 'navigation';
+@import 'inner';
+@import 'images';
+@import 'home';
+@import 'archive';
+@import 'code';
+@import 'footer';

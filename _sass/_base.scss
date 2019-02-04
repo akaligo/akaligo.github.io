@@ -1,54 +1,54 @@
 /* Box Sizing
 -------------------------------------------------- */
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 /* Float Clearing
 -------------------------------------------------- */
-.author-box:before,
-.clearfix:before,
-.entry:before,
-.entry-content:before,
-.entry-content p:before,
-.footer-widgets:before,
-.nav-primary:before,
-.nav-secondary:before,
-.pagination:before,
-.row::before,
-.site-container:before,
-.site-footer:before,
-.site-header:before,
-.site-inner:before,
-.wrap:before {
-  content: " ";
-  display: table;
-}
+// .author-box:before,
+// .clearfix:before,
+// .entry:before,
+// .entry-content:before,
+// .entry-content p:before,
+// .footer-widgets:before,
+// .nav-primary:before,
+// .nav-secondary:before,
+// .pagination:before,
+// .row::before,
+// .site-container:before,
+// .site-footer:before,
+// .site-header:before,
+// .site-inner:before,
+// .wrap:before {
+//   content: " ";
+//   display: table;
+// }
 
-.author-box:after,
-.clearfix:after,
-.entry:after,
-.entry-content:after,
-.entry-content p:after,
-.footer-widgets:after,
-.nav-primary:after,
-.nav-secondary:after,
-.pagination:after,
-.row:after,
-.site-container:after,
-.site-footer:after,
-.site-header:after,
-.site-inner:after,
-.wrap:after {
-  clear: both;
-  content: " ";
-  display: table;
-}
+// .author-box:after,
+// .clearfix:after,
+// .entry:after,
+// .entry-content:after,
+// .entry-content p:after,
+// .footer-widgets:after,
+// .nav-primary:after,
+// .nav-secondary:after,
+// .pagination:after,
+// .row:after,
+// .site-container:after,
+// .site-footer:after,
+// .site-header:after,
+// .site-inner:after,
+// .wrap:after {
+//   clear: both;
+//   content: " ";
+//   display: table;
+// }
 
 /* Base
 -------------------------------------------------- */
 html {
-  font-size: 62.5%;
+  // font-size: 62.5%;
   height: 100%;
   box-sizing: border-box;
 }
@@ -64,7 +64,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  font-size: 20px;
+  font-size: 1.334em;
+  // font-size: 20px;
   line-height: 1.4;
   font-weight: 400;
   font-family: $primary-font-family;
@@ -139,6 +140,7 @@ p {
   margin-top: 0;
   margin-bottom: 25px;
   word-break: break-word;
+  font-size: 1.1em;
 }
 
 
@@ -218,74 +220,6 @@ input[type="button"]:focus {
   color: #fff;
   background-color: transparent;
   text-decoration: none;
-}
-
-
-/* Forms
--------------------------------------------------- */
-form {
-  margin-bottom: 25px;
-}
-
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
-  height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
-  // border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box;
-}
-
-/* Removes awkward default styles on some inputs for iOS */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea {
-  width: 100%;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-}
-
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-textarea:focus,
-select:focus {
-  border: 1px solid #33C3F0;
-  outline: 0;
-}
-
-textarea {
-  min-height: 92px;
-}
-
-input,
-select {
-  margin-bottom: 15px;
-}
-
-form.contact {
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 

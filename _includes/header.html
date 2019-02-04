@@ -1,4 +1,4 @@
-<header class="site-header"{% if page.featured-image %} style="background-image:url('{{ site.url }}{{ site.baseurl }}/images/{{ page.featured-image }}');"{% elsif page.layout == 'post' and page.featured-image == nil %} style="background-image:url('{{ site.url }}{{ site.baseurl }}/images/header-default.jpg');"{% else %}{% endif %} itemscope itemtype="http://schema.org/WPHeader">
+<header class="site-header"{% if page.featured-image %} style="background-image:url('{{ site.url }}/images/{{ page.featured-image }}');"{% elsif page.layout == 'post' and page.featured-image == nil %} style="background-image:url('{{ site.url }}/images/header-default.jpg');"{% else %}{% endif %}>
 
   {% if page.url == "/" %}<div class="gradient">{% endif %}
 
@@ -6,14 +6,18 @@
       <div class="wrap">
 
         <div class="title-area">
-          <{% if page.url == '/' %}h1{% else %}p{% endif %} class="site-title" itemprop="headline"><a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a></{% if page.url == '/' %}h1{% else %}p{% endif %}>
-          {% if page.url == '/' %}<h2 class="site-description" itemprop="description">{{ site.description }}</h2>{% endif %}
+          {% if page.url == '/' %}
+            <h1 class="site-title">Thailand Travel<br> Designed Around You</h1>
+          {% else %}
+            <p class="site-title"><a href="{{ site.url }}">{{ site.title }}</a></p>
+          {% endif %}
+          {% if page.url == '/' %}<h2 class="site-description">Travel in Asia can be challenging, we can help.</h2>{% endif %}
         </div>
 
         {% if page.url != "/" %}<div class="responsive-menu-icon"></div>
         <nav class="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
           <ul class="menu jekyll-nav-menu menu-primary">{% for link in site.data.header-nav %}
-            <li class="menu-item{% if link.url == page.url %} active{% endif %}"><a href="{{ site.url }}{{ link.url }}" itemprop="url"><span itemprop="name">{{ link.title }}</span></a></li>{% endfor %}
+            <li class="menu-item{% if link.url == page.url %} active{% endif %}"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>{% endfor %}
           </ul>
         </nav>{% endif %}
 

@@ -99,11 +99,11 @@
   margin-top: 25%;
   padding: 0;
 }
-@media (min-width: 1000px) {
-  .home .title-area {
-    margin-top: 15%;
-  }
-}
+// @media (min-width: 1000px) {
+//   .home .title-area {
+//     margin-top: 15%;
+//   }
+// }
 
 .site-title {
   margin-bottom: 0;
@@ -111,18 +111,18 @@
   line-height: 1.2;
   color: $header-text-color;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.22);
+
+  .home & {
+    font-size: 2.3em;
+    margin-bottom: 25px;
+    text-align: center;
+    @media (min-width: 550px) {
+      font-size: 2.8em;
+    }
+  }
+
 }
 
-.home .site-title {
-  font-size: 50px;
-  margin-bottom: 25px;
-  text-align: center;
-}
-@media (min-width: 550px) {
-  .home .site-title {
-    font-size: 60px;
-  }
-}
 
 .site-title a,
 .site-title a:hover {
@@ -148,7 +148,7 @@
   text-align: center;
   font-weight: 400;
   color: $header-text-color;
-  font-size: 32px;
+  font-size: 1.3em;
 }
 
 .archive-header {
