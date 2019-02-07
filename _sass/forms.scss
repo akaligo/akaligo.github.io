@@ -1,5 +1,40 @@
-/* Forms
--------------------------------------------------- */
+.form-contact {
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 20px;
+}
+
+.form-nea {
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 20px;
+  @media (min-width: 26em) {
+    display: flex;
+    align-items: center;
+  }
+
+  .email {
+    width: 100%;
+    margin-bottom: .571em;
+    padding: .73em;
+    @media (min-width: 26em) {
+      margin-right: .571em;
+      margin-bottom: 0;
+    }
+  }
+
+  .button {
+    width: 100%;
+    margin-bottom: 0;
+    @media (min-width: 26em) {
+      max-width: 12.4em;
+    }
+  }
+
+}
+
 form {
   margin-bottom: 25px;
 }
@@ -13,7 +48,7 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
-  height: 38px;
+  // height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
   border: 1px solid #D1D1D1;
@@ -67,11 +102,4 @@ label {
   margin-bottom: 0;
   padding: 0 !important;
   font-size: smaller;
-}
-
-.form-contact {
-  max-width: 760px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 20px;
 }
