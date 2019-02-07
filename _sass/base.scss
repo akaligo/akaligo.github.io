@@ -1,54 +1,8 @@
-/* Box Sizing
--------------------------------------------------- */
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
-/* Float Clearing
--------------------------------------------------- */
-// .author-box:before,
-// .clearfix:before,
-// .entry:before,
-// .entry-content:before,
-// .entry-content p:before,
-// .footer-widgets:before,
-// .nav-primary:before,
-// .nav-secondary:before,
-// .pagination:before,
-// .row::before,
-// .site-container:before,
-// .site-footer:before,
-// .site-header:before,
-// .site-inner:before,
-// .wrap:before {
-//   content: " ";
-//   display: table;
-// }
-
-// .author-box:after,
-// .clearfix:after,
-// .entry:after,
-// .entry-content:after,
-// .entry-content p:after,
-// .footer-widgets:after,
-// .nav-primary:after,
-// .nav-secondary:after,
-// .pagination:after,
-// .row:after,
-// .site-container:after,
-// .site-footer:after,
-// .site-header:after,
-// .site-inner:after,
-// .wrap:after {
-//   clear: both;
-//   content: " ";
-//   display: table;
-// }
-
-/* Base
--------------------------------------------------- */
 html {
-  // font-size: 62.5%;
   height: 100%;
   box-sizing: border-box;
 }
@@ -128,7 +82,7 @@ h6 {
   line-height: 1.6;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 26em) {
   h1 { font-size: 50px; }
   h2 { font-size: 42px; }
   h3 { font-size: 36px; }
@@ -140,7 +94,7 @@ p {
   margin-top: 0;
   margin-bottom: 25px;
   word-break: break-word;
-  font-size: 1.1em;
+  // font-size: 1.1em;
 }
 
 
@@ -216,7 +170,7 @@ blockquote {
   padding-left: 40px;
   border-left: 5px solid #e5e5e5;
 }
-@media (min-width: 400px) {
+@media (min-width: 19em) {
   blockquote {
     padding-right: 60px;
   }

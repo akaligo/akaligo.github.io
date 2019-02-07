@@ -9,17 +9,17 @@
           flex: 2 0 auto;
   text-align: center;
 }
-@media (min-width: 400px) {
+@media (min-width: 19em) {
   .navigation {
     float: right;
   }
 }
-@media (min-width: 550px) {
+@media (min-width: 26em) {
   .navigation {
 
   }
 }
-@media (min-width: 750px) {
+@media (min-width: 35.7em) {
   .navigation {
     display: block;
     clear: none;
@@ -35,7 +35,7 @@
   // text-align: center;
   margin-bottom: 0;
 }
-@media (min-width: 400px) {
+@media (min-width: 19em) {
   .jekyll-nav-menu .menu-item {
     display: inline-block;
     text-align: left;
@@ -55,7 +55,7 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-@media (min-width: 750px) {
+@media (min-width: 35.7em) {
   .jekyll-nav-menu a {
     padding: 29px 15px;
   }
@@ -76,7 +76,7 @@
   background-color: #fff;
   color: inherit;
 }
-@media (min-width: 400px) {
+@media (min-width: 19em) {
   .jekyll-nav-menu li.active > a,
   .jekyll-nav-menu > li > a:hover {
     background-color: inherit;
@@ -112,7 +112,7 @@
   cursor: pointer;
   z-index: 999;
 }
-@media (min-width: 750px) {
+@media (min-width: 35.7em) {
   .responsive-menu-icon {
     display: none;
   }
@@ -141,7 +141,7 @@
   width: 100%;
   text-align: center;
 }
-@media (min-width: 750px) {
+@media (min-width: 35.7em) {
   .nav-footer {
     width: inherit;
     float: right;
@@ -152,7 +152,7 @@
   display: block;
   text-align: center;
 }
-@media (min-width: 550px) {
+@media (min-width: 26em) {
   .nav-footer .jekyll-nav-menu .menu-item {
     display: inline-block;
     text-align: left;
@@ -166,7 +166,7 @@
   background-color: inherit;
   border-bottom: none;
 }
-@media (min-width: 550px) {
+@media (min-width: 26em) {
   .nav-footer .jekyll-nav-menu a,
   .nav-footer .jekyll-nav-menu li.active a {
     padding: 0 15px;

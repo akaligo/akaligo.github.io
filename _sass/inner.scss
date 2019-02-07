@@ -14,22 +14,22 @@
   margin: 0 auto;
   padding: 0 20px;
 }
-@media (min-width: 750px) {
+@media (min-width: 35.7em) {
   .wrap {
     max-width: 760px;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 47.6em) {
   .wrap {
     max-width: 960px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 57em) {
   .wrap {
     max-width: 1160px;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 76em) {
   .wrap {
     max-width: 1460px;
   }
@@ -137,7 +137,7 @@ hr {
   margin: 10px -20px;
   padding: 12px 0 0;
 }
-@media (min-width: 1000px) {
+@media (min-width: 47.6em) {
   .entry-footer .entry-meta {
     margin: 0;
     padding: 10px 0 8px;

@@ -37,7 +37,7 @@ img.pullright {
   margin: 0 0 26px 24px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 47.6em) {
   img.pullleft {
     float: left;
     margin: 0 24px 26px -64px;
@@ -48,7 +48,7 @@ img.pullright {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 57em) {
   img.pullleft {
     float: left;
     margin: 0 24px 26px -136px;
@@ -59,7 +59,7 @@ img.pullright {
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 76em) {
   img.pullleft {
     float: left;
     margin: 0 24px 26px -200px;
@@ -75,7 +75,7 @@ figure {
   margin-right: -25px;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 35.7em) {
   figure {
     margin-left: 0;
     margin-right: 0;
@@ -114,7 +114,7 @@ figure.third img {
   padding-right: 0;
   padding-left: 0;
 }
-@media (min-width: 750px) {
+@media (min-width: 35.7em) {
   figure.half a,
   figure.half img,
   figure.third a,
