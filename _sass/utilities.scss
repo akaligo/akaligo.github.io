@@ -21,3 +21,8 @@
 .ml-3 {
   margin-left: $spacer !important;
 }
+
+.disabled a {
+  display: inline-block;
+  pointer-events: none;
+}
