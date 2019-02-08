@@ -4,7 +4,7 @@
 .archive .one-half {
   width: 100%;
 }
-@media (min-width: 35.7em) {
+@media (min-width: 750px) {
   .blog .one-half,
   .archive .one-half {
     width: 50%;
@@ -54,12 +54,12 @@ a.blog-teaser:hover {
     font-weight: bold;
   }
 }
-@media (min-width: 35.7em) {
+@media (min-width: 750px) {
   .entry-excerpt {
     display: none;
   }
 }
-@media (min-width: 47.6em) {
+@media (min-width: 1000px) {
   .entry-excerpt {
     display: block;
   }

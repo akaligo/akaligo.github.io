@@ -27,14 +27,14 @@ permalink: /contact/
   <input id="email" type="email" name="_replyto" required>
 
   <label for="availability">Will you be traveling <em>after</em> {{ site.time | date: '%s' | plus: 10520000 | date: '%B %Y' }}? <span class="required">*</span></label>
-  <div class="dflex mb-3">
-    <div class="dflex align-items-center">
+  <div class="d-flex mb-3">
+    <div class="d-flex align-items-center">
       <label for="availability-yes">Yes</label>
-      <input id="availability-yes" class="mt-0 ml-1" type="radio" name="availability-yes" value="Traveling after {{ site.time | date: '%s' | plus: 10520000 | date: '%B %Y' }}" required>
+      <input id="availability-yes" class="mt-0 ml-1" type="radio" name="availability" value="Traveling after {{ site.time | date: '%s' | plus: 10520000 | date: '%B %Y' }}" required>
     </div>
-    <div class="dflex align-items-center ml-3">
+    <div class="d-flex align-items-center ml-3">
       <label for="availability-no">No</label>
-      <input id="availability-no" class="mt-0 ml-1" type="radio" name="availability-no" value="Traveling before {{ site.time | date: '%s' | plus: 10520000 | date: '%B %Y' }}" required>
+      <input id="availability-no" class="mt-0 ml-1" type="radio" name="availability" value="Traveling before {{ site.time | date: '%s' | plus: 10520000 | date: '%B %Y' }}" required>
     </div>
   </div>
 

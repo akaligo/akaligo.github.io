@@ -3,6 +3,11 @@
   margin-right: auto;
   margin-left: auto;
   padding: 0 20px;
+
+  .required {
+    color: #b50000;
+  }
+
 }
 
 .form-nea {
@@ -10,7 +15,7 @@
   margin-right: auto;
   margin-left: auto;
   padding: 0 20px;
-  @media (min-width: 26em) {
+  @media (min-width: 550px) {
     display: flex;
     align-items: center;
   }
@@ -19,7 +24,7 @@
     width: 100%;
     margin-bottom: .571em;
     padding: .73em;
-    @media (min-width: 26em) {
+    @media (min-width: 550px) {
       margin-right: .571em;
       margin-bottom: 0;
     }
@@ -28,7 +33,7 @@
   .button {
     width: 100%;
     margin-bottom: 0;
-    @media (min-width: 26em) {
+    @media (min-width: 550px) {
       max-width: 12.4em;
     }
   }

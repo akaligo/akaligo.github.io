@@ -14,12 +14,12 @@
     float: right;
   }
 }
-@media (min-width: 26em) {
+@media (min-width: 550px) {
   .navigation {
 
   }
 }
-@media (min-width: 35.7em) {
+@media (min-width: 750px) {
   .navigation {
     display: block;
     clear: none;
@@ -55,7 +55,7 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-@media (min-width: 35.7em) {
+@media (min-width: 750px) {
   .jekyll-nav-menu a {
     padding: 29px 15px;
   }
@@ -112,7 +112,7 @@
   cursor: pointer;
   z-index: 999;
 }
-@media (min-width: 35.7em) {
+@media (min-width: 750px) {
   .responsive-menu-icon {
     display: none;
   }
@@ -141,7 +141,7 @@
   width: 100%;
   text-align: center;
 }
-@media (min-width: 35.7em) {
+@media (min-width: 750px) {
   .nav-footer {
     width: inherit;
     float: right;
@@ -152,7 +152,7 @@
   display: block;
   text-align: center;
 }
-@media (min-width: 26em) {
+@media (min-width: 550px) {
   .nav-footer .jekyll-nav-menu .menu-item {
     display: inline-block;
     text-align: left;
@@ -166,7 +166,7 @@
   background-color: inherit;
   border-bottom: none;
 }
-@media (min-width: 26em) {
+@media (min-width: 550px) {
   .nav-footer .jekyll-nav-menu a,
   .nav-footer .jekyll-nav-menu li.active a {
     padding: 0 15px;

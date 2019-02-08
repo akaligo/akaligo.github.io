@@ -47,7 +47,7 @@
   width: 100%;
   padding: 0 5%;
 }
-@media (min-width: 47.6em) {
+@media (min-width: 1000px) {
   .site-header .wrap {
     padding: 0;
     border-bottom: 1px solid $header-text-color;
@@ -78,7 +78,7 @@
 //   padding: 14px 0 0;
 //   text-align: center;
 // }
-// @media (min-width: 35.7em) {
+// @media (min-width: 750px) {
   .title-area {
     float: left;
     width: 216px;
@@ -99,7 +99,7 @@
   margin-top: 25%;
   padding: 0;
 }
-// @media (min-width: 47.6em) {
+// @media (min-width: 1000px) {
 //   .home .title-area {
 //     margin-top: 15%;
 //   }
@@ -116,7 +116,7 @@
     font-size: 2.3em;
     margin-bottom: 25px;
     text-align: center;
-    @media (min-width: 26em) {
+    @media (min-width: 550px) {
       font-size: 2.8em;
     }
   }
