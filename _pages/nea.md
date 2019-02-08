@@ -43,7 +43,7 @@ The main thing to remember is nothing sleeveless, nothing excessively short or r
 
 ## Weather
 
-Even if you are from Phoenix or New Orleans or Tampa, you will not be ready for the heat. My mother, who grew up in Florida and has lived her whole adult life in Alabama, said it was hotter than anything she's experienced in the States.
+Even if you are from Phoenix or New Orleans or Tampa, you will not be ready for the heat and humidity. My mother, who grew up in Florida and has lived her whole adult life in Alabama, said it was hotter than anything she's experienced in the States.
 
 Carry an umbrella. You'll be coming at the beginning of the rainy season, but the umbrella is mostly for the sun. You don't want to be in a tropical monsoon with an umbrella anyway. Umbrellas are better than hats because you can angle them and they don't hold heat on your head the same as a hat.
 
@@ -59,4 +59,4 @@ You're US cell phone will work fine connecting to WiFi hotspots, but voice call 
 
 ## Additional Support
 
-I hope this brief guide prove useful. You may still have some questions about hotels, day trips around Bangkok, or trips to other parts of Thailand. If you have such questions, want to plan something before or after the conference, or just want to say hello, please don't hesitate to write me: brad@thailandetcetera.com. I'm always happy to connect with visitors to Thailand.
+I hope this brief guide will prove useful. You may still have some questions about hotels, day trips around Bangkok, or trips to other parts of Thailand. If you have such questions, want to plan something before or after the conference, or just want to say hello, please don't hesitate to write me: brad@thailandetcetera.com. I'm always happy to connect with visitors to Thailand.
