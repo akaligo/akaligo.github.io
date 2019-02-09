@@ -11,4 +11,4 @@ Yes, I was the kid that tried to learn a dozen languages or the one that organiz
 
 More than six years later, I've fallen in love with my new country and culture. When I'm not working (or sometimes even when I am), I love meeting new people, discovering hole-in-the-wall eateries, nibbling on street food, or exploring the nooks & crannies of a new district or city.
 
-It's always a pleasure to share my new discoveries with visiting friends, and I hope to pass on that same excitement (and knowledge) with you!
+It's always a pleasure to share my new discoveries with visiting friends, and I hope to pass on that same excitement (and knowledge) to you!
